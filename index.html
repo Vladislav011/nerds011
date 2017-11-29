@@ -2,10 +2,209 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-   
+    <title>Nerds html academy</title>
+   <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/style-min.css">
   </head>
   <body>
+     <header class="main-header">
+         <div class="container">
+             
+             <div class="logo">
+                 <a href="index.html">
+                 
+                 <img src="img/nerds-index/logo-header.png" width="139" height="56" alt="Логотип" >
+             
+                 </a>
+                     
+             </div>
+             <nav class="main-navi">
+                 <ul>
+                     <li>
+                         <a href="#">Студия</a>
+                     </li>
+                 </ul>
+                 <ul>
+                     <li>
+                         <a href="#">Клиенты</a>
+                     </li>
+                  </ul>
+                <ul>
+                     <li>
+                         <a href="catalog.html">Магазин</a>
+                     </li>
+                 </ul>
+                <ul>
+                     <li>
+                         <a href="#">Контакты</a>
+                     </li>
+                 </ul> 
+             </nav>
+             <div class="user-block">
+                 <a class="bucket" href="#">Корзина</a>
+             </div>
+             
+             
+         </div>
+         <div class="slaider container"> 
+      <input type="radio" id="btn-1" name="toggle" checked>
+      <input type="radio" id="btn-2" name="toggle">
+      <input type="radio" id="btn-3" name="toggle">
+
+      <div class="slider-controls">
+        <label for="btn-1"></label>
+        <label for="btn-2"></label>
+        <label for="btn-3"></label>
+      </div>
+
+      <div class="slides">
+        <div class="slide">
+          <div class="slide-text">
+            <div class="slide-title">Долго, дорого, скрупулезно.</div>
+            <p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.
+              </p>
+            <a class="btn" href="#">Узнать больше</a>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-text">
+            <div class="slide-title">Любите ли вы математику, как любим ее мы?</div>
+            <p>Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все просчитать
+              </p>
+            <a class="btn" href="#">Узнать больше</a>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-text">
+            <div class="slide-title">Только наркотики, только хардкор!</div>
+            <p>Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов.
+              </p>
+            <a class="btn" href="#">Узнать больше</a>
+          </div>
+        </div>
+      </div>
+    </div>
+         
+         
+         
+         
+</header>
+      <main class="featur-container">
+          <div class="featurs">
+              <div class="featur-item">
+              <img src="img/nerds-index/products-1.png" width="240" height="124" alt="Веб-сайты"  >
+                  <div class="pick">Веб-сайты</div>
+                  <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+              <a class="btn-1" href="#">Заказать</a>
+              </div>
+              <div class="featur-item">
+              <img src="img/nerds-index/products-2.png" width="240" height="124" alt="Приложения">
+                  <div class="pick">Приложения</div>
+                  <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+              <a class="btn-2" href="#">Заказать</a>
+                  </div>
+              <div class="featur-item">
+              <img src="img/nerds-index/products-3.png" width="240" height="124" alt="Презентации">
+                  <div class="pick">Прeзeнтации</div>
+                  <p>Вы даже не подозреваете насколько вы изумительны!</p>
+              <a class="btn-3" href="#">Заказать</a>
+              </div>
+          </div>
+          <div class="info-container">
+              <div class="column-left">
+                  <h1>Мы-маленькая,но гордая дизайн-студия из 
+                      Краснодара</h1>
+                  <p>Исповедуем приципы минимализма и чистоты.Ставим математический расчет выше креатива.Работаем не покладая рук,как роботы.</p>
+              </div>
+              <div class="colum-right">
+              <img src="img/nerds-index/logo-about-us.png" width="187" height="75" alt="Логотип">
+                  <div class="logo-right">
+                      <span>SINCE 2004</span>
+                  
+                  </div>
+              
+              
+              </div>
+              <div class="colum-left">
+                  <h2>Выполняем заказы на разработку:</h2>
+                  <ul>
+                  <li>Веб-сайтов любой сложности</li>
+                  <li>Мобильных приложений для IOS и Android</li>
+                  <li>Слайдшоу и видео для копоративных презентаций</li>
+                  </ul>
+          </div>
+              <div class="colum-right"> 
+              <h2>Как мы работаем:</h2>
+                  <ul>
+                  <li>С самоотдачей 146%</li>
+                  <li>Соблюдая сроки на 100%</li>
+                  <li>По предоплате 50%</li>
+                  </ul>
+              </div>
+          </div>
+          <div class="partner-container">
+              <div class="info-item1">
+                  <img src="img/nerds-index/partner-1.png" width="198" height="37" alt="glushko">
+              </div><div class="info-item2">
+                  <img src="img/nerds-index/partner-2.png" width="198" height="37" alt="htmlacademy">
+              </div>
+              <div class="info-item3">
+                  <img src="img/nerds-index/partner-3.png" width="198" height="37" alt="Borodinskyy">
+              </div>
+          
+          </div>
+          <div class="map-block">
+              <div class="title"><strong>NERDS</strong> DEISIGN STUDIO </div>
+              <a class="tel" href="tel:78612757575">тел. +7 (861) 275-75-75</a>
+        <a class="btn" id="open-form" href="#">Напишите нам</a>
+          
+          
+          
+          
+          
+          </div>
+    <div class="down-container">
+     <div class="social-container"> 
+      <div class="container clearfix">
+       <div class="social-buttons">
+          <a class="social-button vk" href="#"><i class="icon-vk"></i></a>
+          <a class="social-button fb" href="#"><i class="icon-facebook"></i></a>
+          <a class="social-button instagram" href="#"><i class="icon-instagramm"></i></a>
+        </div>
+          <div class="footer-text">
+          <h2>Давайте дружить, это выгодно!</h2>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
+         </div> 
+        </div>         
+       </div>
+     </div> 
+          
+          
+          
+      </main>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOhJV7X_LrEpSxpGsfuNqsdnyyqiUxvxo&callback=initMap" async defer></script>
       <p><a href="http://htmlacademy.ru/intensive">Базовый HTML и CSS</a></p>
- </body>
+      <script src="js/scripts-min.js"></script>
+      <script src="js/scripts.js"></script> 
+    </body>
 </html>
