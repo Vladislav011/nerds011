@@ -1,0 +1,393 @@
+ .body {
+  font-size: 16px;
+  line-height: 22px;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  font-weight: 300;
+  min-width: 900px;
+ background:white;
+}
+
+ .main-header 
+ {
+  min-width:1200px;
+     min-height: 461px;
+  padding-top: 27px;
+  margin-bottom: 80px;
+  background: #eee;
+
+}
+.clearfix::after 
+
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container
+{
+  width:900px;
+  height:100px;
+  margin:0 auto;
+  padding:0 10px;
+    background:#eee;
+  }
+  .logo{ 
+    float: left;
+    width: 140px;
+    margin-right:180px;
+    }
+    .main-navi{
+      float: left;
+    width: 460px;
+ 
+      
+      
+      
+      }
+      .user-block{
+         float: right;
+    position: relative;
+    padding-right: 20px;
+    width: 100px;
+    margin-top: 21px;
+        }
+  
+.slider
+  {
+    width: 1200px;
+    margin: 0 auto;
+      background:#eee;
+          }
+.toggle:checked~.slider{
+    
+    width:900px;
+    
+    
+    
+}
+
+
+    .featur-container{
+      background:white;
+      width:900px;
+        margin:0 auto;
+      
+      }      
+          
+          
+          
+.featurs{ 
+    margin-right:auto;
+    margin-left:auto;
+margin-top: 0;
+  background:white;
+    height:auto;
+    width:900px;
+  
+    
+}
+.featur-item1{
+  margin-top:80px;
+  float:left;
+  padding-left:10px;
+  }
+.featur-item2{
+    margin-top:80px;
+  float:left;
+  padding-left:80px;
+  padding-right:80px;
+  
+  }  
+  .featur-item3{
+      margin-top:80px;
+    float:left;
+    padding-right:10px;
+    
+    }
+    .info-container{
+      height:auto;
+      
+       width:900px;
+    margin: 0 auto;
+    background:blue;
+    }
+    .column-left1
+    {
+      padding-left:10px;
+      padding-top:70px;
+    
+      float:left;
+      
+      }
+      .logo-nerds
+      {float:left;
+      padding-right:10px;
+      
+        }
+      .column-left{
+        padding-left:10px;
+        float:left;
+     
+        
+        
+      }
+      .colum-right
+      {
+        
+        
+       
+        
+        
+        }
+        .partner-container
+        {
+       width:900px;
+       margin: 0 auto;
+       background:white;
+       height:167px;
+        }
+       .info-item1{
+     float:left;
+     padding-left:10px;
+     padding-top:65px;
+     
+     }
+          .info-item2{
+     float:left;
+     padding-left:148px;
+     padding-top:65px;
+     
+     }
+     .info-item3{
+     float:right;
+     padding-right:10px;
+     padding-top:65px;
+     
+     }
+     .map-wrapper{
+       width:900px;
+       background:yellow;
+       height:415px;
+       margin: 0 auto;
+       }
+       .map-block{
+         background:white;
+         width:250px;
+         height:242px;
+         margin-left:10px;
+         margin-top:88px;
+  
+         } .body 
+{   background: url(nerds-index.psd)
+    min-width:1199px;
+    min-height:2256px;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+ .main-header 
+ {
+    margin: 0 auto;
+    background: #eeeeee;
+    width:auto;
+    height:100px;
+
+}
+.clearfix::after 
+
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container
+{
+  width:900px;
+  height:100px;
+  margin:0 auto;
+  padding:0 10px;
+  }
+  .logo{ 
+    float: left;
+    width: 140px;
+    margin-right:180px;
+    }
+    .main-navi{
+      float: left;
+    width: 460px;
+ 
+      
+      
+      
+      }
+      .user-block{
+         float: right;
+    position: relative;
+    padding-right: 20px;
+    width: 100px;
+    margin-top: 21px;
+        }
+  .slides
+  {
+          height:334px;
+    width: 900px;
+    margin: 0 auto;
+    background:#eee;
+          
+          }
+.featurs{
+ 
+    height:460px;
+    width:900px;
+    margin: 334 0 auto;
+    background:white;
+    
+}
+.featur-item1{
+  margin-top:80px;
+  float:left;
+  padding-left:10px;
+  }
+.featur-item2{
+    margin-top:80px;
+  float:left;
+  padding-left:80px;
+  padding-right:80px;
+  
+  }  
+  .featur-item3{
+      margin-top:80px;
+    float:left;
+    padding-right:10px;
+    
+    }
+    .info-container{
+      height:475px;
+       width:900px;
+    margin 0 auto;
+    background:white;
+    }
+    .column-left1
+    { float:left;
+      padding-left:10px;
+      padding-top:70px;
+    
+      
+      
+      }
+      .logo-nerds
+      {
+        float:right;
+        padding-right:10px;
+        padding-top:70px;
+        
+        }
+      .column-left
+      {
+     
+        
+        
+      }
+      .column-right
+      { padding-top:43px;
+       
+        
+        
+        }
+        .partner-container
+        {
+       width:900px;
+       margin-left:auto;
+       margin-right: auto;
+       background:white;
+       height:167px;
+        }
+       .info-item1{
+     float:left;
+     padding-left:10px;
+     padding-top:65px;
+     
+     }
+          .info-item2{
+     float:left;
+     padding-left:148px;
+     padding-top:65px;
+     
+     }
+     .info-item3{
+     float:right;
+     padding-right:10px;
+     padding-top:65px;
+     
+     }
+     .map-wrapper{
+       width:900px;
+       background:yellow;
+       height:415;
+       margin: 0 auto;
+       
+       
+       
+       }
+.maps{
+  padding-left:auto;
+    padding-right: auto;
+    background:;
+    
+    
+    
+}
+       .map-block{
+      float:left;
+     background:white;
+         width:250px;
+         height:242px;
+         margin-left:10px;
+         margin-top:88px;
+         }
+         .footer-main{
+             width:900px;
+             height:230px;
+            margin: 0 auto;
+             background:white;
+           
+           
+           }
+         .footer-social{
+           float:left;
+           padding-left:10px;
+           padding-top:75px;
+           
+           }
+           .footer-text{
+             
+            float:right;
+            padding-top:52px; 
+             padding-right:30px;
+             
+             
+             }
+<--Catalog-->
+.main-header1{
+    margin: 0 auto;
+    min-width: 1200px;
+    min-height: 328px;
+    background:#eee;
+    
+    
+}
+
+
+.text{
+    float:left;
+    padding:0 auto;
+   background:red;
+    
+    
+}
+
+
+
+
+

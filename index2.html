@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <title>Nerds html academy</title>
    <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/style-min.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
   <script>
     $(document).ready(function(){
       $('.slider').bxSlider();
@@ -54,16 +56,22 @@
              </div>
              
              
-         </div>
-         <div class="all">
-         <article id="slider">
-       
-      </article>
-         </div>
+         </div></header>
+         <div class="slaider container"> 
+     
+      <div class="slides"> 
+          
+          </div>
+
+             
+             
+             
+    </div>
          
          
          
-</header>
+         
+
       <main class="featur-container">
           <div class="featurs">
               <div class="featur-item1">
@@ -85,25 +93,30 @@
               <a class="btn-3" href="#">Заказать</a>
               </div>
           </div>
-           <div class="info-container">
-              <div class="column-left1">
-                  <h2>Мы-маленькая,но гордая <br>дизайн-студия из 
-                      Краснодара</h2>
+          <div class="info-container">
+              <div class="column-left">
+                  <h1>Мы-маленькая,но гордая <br>дизайн-студия из 
+                      Краснодара</h1>
                   <p>Исповедуем приципы минимализма и чистоты.Ставим математический <br>расчет выше креатива.Работаем не покладая рук,как роботы.</p>
-               <div class="column-left"><h2>Выполняем заказы на разработку:</h2>
-                 <ul>
-                  <li>Веб-сайтов любой сложности</li>
-                  <li>Мобильных приложений для IOS и Android</li>
-                  <li>Слайдшоу и видео для копоративных презентаций</li>
-                      </ul>
-                  </div>
-</div> 
-              
-              <div class="logo-nerds">
+              </div>
+              <div class="colum-right">
               <img src="img/nerds-index/logo-about-us.png" width="187" height="75" alt="Логотип">
                   <div class="logo-right">
                       <span>SINCE 2004</span>
-                       <div class="column-right"> 
+                  
+                  </div>
+              
+              
+              </div>
+              <div class="colum-left">
+                  <h2>Выполняем заказы на разработку:</h2>
+                  <ul>
+                  <li>Веб-сайтов любой сложности</li>
+                  <li>Мобильных приложений для IOS и Android</li>
+                  <li>Слайдшоу и видео для копоративных презентаций</li>
+                  </ul>
+          </div>
+              <div class="colum-right"> 
               <h2>Как мы работаем:</h2>
                   <ul>
                   <li>С самоотдачей 146%</li>
@@ -111,15 +124,7 @@
                   <li>По предоплате 50%</li>
                   </ul>
               </div>
-                  
-                  </div>
-              
-                
-              </div>                
           </div>
-         
-            
-          
           <div class="partner-container">
               <div class="info-item1">
                   <img src="img/nerds-index/partner-1.png" width="198" height="37" alt="glushko">
@@ -131,73 +136,21 @@
               </div>
           
           </div>
-          <div class="map-wrapper">
-
-             
-              
+           <div class="map-wrapper">
+      <div id="map"></div>
           <div class="map-block">
               <div class="title"><strong>NERDS</strong> DEISIGN STUDIO </div>
               <div class="Adress">350000,Краснодар,ул.<br>Головатого,100</div>
               <a class="tel" href="tel:78612757575">тел. +7 (861) 275-75-75</a>
         <a class="btn" id="open-form" href="#">Напишите нам</a>
-        <div class="write-us">
-               <form class="write-us-form" action="#" method="post">
-                
-    		<div class="form-column-wrapper clearfix">
-                    
-					<div class="form-column">
-                        <label for="login-field">Ваше имя:</label>
-                        <input type="text" name="login" id="login-field" placeholder="Представьтесь, пожалуйста">
-                    </div>
-                
-                    <div class="form-column">
-                        <label for="email-field">Ваш e-mail:</label>
-    			        <input type="email" name="email" id="email-field" required placeholder="Для отправки ответа">
-                    </div>
-					
-                </div>    
-                .
-                <label for="note-field">Текст письма:</label>
-    			<textarea name="note" id="note-field" rows="5" placeholder="В свободной форме"></textarea>
-                
-				<div class="form-column-wrapper clearfix">
-					
-					<div class="form-column">
-						<input type="submit" value="Отправить">
-					</div>
-				
-					<div class="form-column">
-						<a class="btn-reset btn" href="#">Отмена</a>
-					</div>
-					
-				</div> 
-            </form>
-          
-          
-          
-          
-          
-          
           
           
           
           
           
           </div>
-           
-          
-          
-          
-              </div></div>
-          
-          
-
-
-          
-          
-          
-      </main><footer class="footer-main">
-		
+<footer class="footer-main">
+		<div class="container clearfix">
 		
 			<div class=" footer-social">
           
@@ -206,9 +159,9 @@
 				  <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
 				  <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
 			</div>
-            <div class="footer-text">
+            <div class="foter-text">
             
-				  <h1>Давайте дружить,это выгодно!</h1>
+				  <h2>Давайте дружить,это выгодно!</h2>
                 <p>Скидка 10% для друзей из социальных сетей</p>
             
             
@@ -216,9 +169,13 @@
             
             </div>
 			
-    
-               </footer>
+    </div>
+               </footer></div>
+
           
+          
+          
+      </main>
       
       
       
