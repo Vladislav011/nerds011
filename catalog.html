@@ -191,9 +191,9 @@
               <div class="title"><strong>NERDS</strong> DEISIGN STUDIO </div>
               <div class="Adress">350000,Краснодар,ул.<br>Головатого,100</div>
               <a class="tel" href="tel:78612757575">тел. +7 (861) 275-75-75</a>
-              <a href="#Write" class="btn-map">Напишите нам!</a>
+              <a href="#" class="btn-map">Напишите нам!</a>
         </div>  
-              <div id="Write" class="write-us">
+              <div class="write-us">
                <form class="write-us-form" action="#" method="post">
     		<div class="form-column-wrapper clearfix">
 					<div class="form-column">
@@ -212,7 +212,7 @@
 						<a href="#" class="btn-sent">Отправить</a>
                     </div>
 					<div class="form-column">
-						<a class="btn-reset" href="#"><img src="img/nerds-index/icon-popup.png" width="41"  height="41" alt="Exit"></a>
+						<button class="btn-reset"></button>
 					</div>
                   </div> 
             </form>
@@ -230,7 +230,31 @@
                 <p class="footer-sale">Скидка 10% для друзей из социальных сетей</p>
             </div>
                </footer>
-      <script src="js/scripts-min.js"></script>
-      <script src="js/scripts.js"></script> 
+             <script>
+    var close=document.querySelector(".btn-reset");
+    var popup=document.querySelector(".write-us");
+    var link=document.querySelector(".btn-map");
+    var login=popup.querySelector("[name=login]");
+    
+     link.addEventListener("click",function(event){
+         event.preventDefault();
+         popup.classList.add("write-us-show");
+         console.log("Click");
+     login.focus();
+     });
+           close.addEventListener("click",function(event2){
+         event2.preventDefault();
+         popup.classList.remove("write-us-show");
+         console.log("Click");
+     });
+            window.addEventListener("keydown",function(event4){
+         if(event4.keyCode === 27){event4.preventDefault();
+         popup.classList.remove("write-us-show");
+            }
+     });
+                
+   
+ 
+  </script>
     </body>
 </html>
